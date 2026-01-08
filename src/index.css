@@ -1,0 +1,95 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #eee;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.btn {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+/* Products Section */
+.products {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.product-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.product-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.product-card li {
+  color: #333;
+  margin: 0.3rem 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #0077cc;
+  margin-top: 1rem;
+}
+
